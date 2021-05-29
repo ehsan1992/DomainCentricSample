@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AuctionManagement.Application
 {
-    public class AuctionService : ICommandHandler<PlaceBidCommand>,
+    public class AuctionCommandHandler : ICommandHandler<PlaceBidCommand>,
         ICommandHandler<OpenAuctionCommand>
     {
         private readonly IAuctionRepository _auctionRepository;
 
-        public AuctionService(IAuctionRepository auctionRepository)
+        public AuctionCommandHandler(IAuctionRepository auctionRepository)
         {
             _auctionRepository = auctionRepository;
         }
