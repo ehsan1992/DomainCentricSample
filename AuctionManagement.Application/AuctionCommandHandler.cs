@@ -23,7 +23,9 @@ namespace AuctionManagement.Application
 
         public async Task Handle(OpenAuctionCommand command)
         {
-            throw new NotImplementedException();
+            var auctionId=new AuctionId(1);
+           var auction=new Auction(auctionId,command.Product,command.StartingPrice,command.EndDateTime);
+           await _auctionRepository.Add(auction);
         }
     }
 }

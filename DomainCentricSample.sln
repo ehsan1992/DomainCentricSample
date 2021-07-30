@@ -33,11 +33,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionManagement.Persisten
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{F3D7B0FF-3E68-4998-83CB-9D4760FEE254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionManagement.RestApi", "AuctionManagement.RestApi\AuctionManagement.RestApi.csproj", "{A4746CB0-6AA0-4DEB-A273-26DCC2F10882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionManagement.RestApi", "AuctionManagement.RestApi\AuctionManagement.RestApi.csproj", "{A4746CB0-6AA0-4DEB-A273-26DCC2F10882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{30EC3A8F-CDDF-49DA-9D4E-F834B7665E1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{30EC3A8F-CDDF-49DA-9D4E-F834B7665E1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionManagement.Config", "AuctionManagement.Config\AuctionManagement.Config.csproj", "{DD194516-7D4B-46A5-96D2-E714CA74A6CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionManagement.Config", "AuctionManagement.Config\AuctionManagement.Config.csproj", "{DD194516-7D4B-46A5-96D2-E714CA74A6CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{26F1C38D-9874-4506-B8FD-15747D036112}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,7 +106,7 @@ Global
 		{4725D828-2EB3-40BB-B4EA-C12445BB88B7} = {A13064AD-88F8-42F2-8913-35874D055DE9}
 		{F3D7B0FF-3E68-4998-83CB-9D4760FEE254} = {F4043C6C-3197-4F03-92E7-AE7510FAB0A9}
 		{A4746CB0-6AA0-4DEB-A273-26DCC2F10882} = {F3D7B0FF-3E68-4998-83CB-9D4760FEE254}
-		{30EC3A8F-CDDF-49DA-9D4E-F834B7665E1B} = {F4043C6C-3197-4F03-92E7-AE7510FAB0A9}
+		{30EC3A8F-CDDF-49DA-9D4E-F834B7665E1B} = {26F1C38D-9874-4506-B8FD-15747D036112}
 		{DD194516-7D4B-46A5-96D2-E714CA74A6CF} = {A13064AD-88F8-42F2-8913-35874D055DE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
